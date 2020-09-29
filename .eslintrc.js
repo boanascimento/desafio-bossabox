@@ -46,11 +46,5 @@ module.exports = {
         ],
         'space-in-parens': ['error', 'never'],
         'no-console': ['error', { 'allow': ['warn', 'error'] }],
-        'id-match': [
-            'error', '^[^A-Z]+$', {
-                'properties': false,
-                'onlyDeclarations': true
-            }
-        ]
     }
 };
