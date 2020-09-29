@@ -7,6 +7,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "push-heroku": "git push --force heroku HEAD:master",
+    "set-app-heroku": "heroku git:remote --app desafio-bossabox",
+    "deploy-heroku": "heroku git:remote --app desafio-bossabox && git add . && git commit -am 'Atualizando o HEROKU - desafio-bossabox' && git push --force heroku HEAD:master",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -43,5 +46,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "engines": {
+    "node": "~12.13.1",
+    "npm": "~6.12.1"
   }
 }
