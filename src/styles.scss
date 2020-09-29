@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* Some of the global classes and colors was based on the DS provided on `https://xd.adobe.com/spec/6a82c840-1813-4b23-6919-2ac91409d104-1cb3/grid` */
+
+// Colors
+:root {
+  --color-white              : #FFFFFF;
+  --color-dark-white         : #FCFCFD;
+  --color-darker-white       : #F5F4F6;
+  --color-darkest-white      : #EBEAED;
+  --color-most-darkest-white : #DEDCE1;
+  --color-link               : #170C3A;
+  --color-light-link         : #8F8A9B;
+  --color-lighter-link       : #B1ADB9;
+  --color-lightest-link      : #C7C4CD;
+  --color-darker-blue        : #244AA8;
+  --color-dark-blue          : #2F55CC;
+  --color-blue               : #365DF0;
+  --color-light-blue         : #9AAEF7;
+  --color-lighter-blue       : #B9C6FA;
+  --color-lightest-blue      : #CAD6FC;
+  --color-most-lightest-blue : #E1E7FD;
+  --color-darker-green       : #0E995D;
+  --color-dark-green         : #10B26C;
+  --color-green              : #12DB89;
+  --color-light-green        : #88EDC4;
+  --color-lighter-green      : #B7F7D8;
+  --color-lightest-green     : #CFF9E6;
+  --color-most-lightest-green: #E7FBF3;
+  --color-darker-red         : #A53F3F;
+  --color-dark-red           : #CC4C4C;
+  --color-red                : #F95E5A;
+  --color-light-red          : #FCAEAC;
+  --color-lighter-red        : #FCC6C5;
+  --color-lightest-red       : #FCD7D6;
+  --color-most-lightest-red  : #FEEFEE;
+  --color-darker-yellow      : #996C2B;
+  --color-dark-yellow        : #D89C3A;
+  --color-yellow             : #FFBB43;
+  --color-light-yellow       : #FFDDA1;
+  --color-lighter-yellow     : #FFF8EC;
+  --color-darker-purple      : #353372;
+  --color-dark-purple        : #4C4499;
+  --color-purple             : #6554C0;
+  --color-light-purple       : #B2A9DF;
+  --color-lighter-purple     : #EFEEF9;
+  --color-darker-teal        : #2497B2;
+  --color-dark-teal          : #2BAFD8;
+  --color-teal               : #30C3FC;
+  --color-light-teal         : #98E1FE;
+  --color-lighter-teal       : #EAF9FF;
+}
+html, body {
+  font: normal normal 600 42px/50px Source Sans Pro;
+}
